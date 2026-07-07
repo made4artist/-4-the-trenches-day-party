@@ -6,7 +6,7 @@ body::before {
 
     background:
         linear-gradient(rgba(0,0,0,.70), rgba(0,0,0,.70)),
-        url("assets/IMG_1937.jpeg") left center / 35% auto no-repeat,
+        url("assets/IMG_1954.png")
         url("assets/IMG_1953.jpeg") right center / 35% auto no-repeat,
         #000;
 
