@@ -10,17 +10,23 @@
 <body>
 
 <div class="container">
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const video = document.querySelector(".flyer-video");
 
-  if (video) {
-    video.muted = true;
-    video.playsInline = true;
+  <video
+    class="flyer-video"
+    autoplay
+    muted
+    loop
+    playsinline
+    webkit-playsinline
+    preload="auto">
+    <source src="assets/Promo5.mp4" type="video/mp4">
+  </video>
 
-    video.play().catch(err => {
-      console.log("Autoplay blocked:", err);
-    });
+  <img src="assets/IMG_2175.png" class="logo" alt="4 The Trenches Day Party">
+
+  <h2>42 Dugg & Babyface Ray</h2>
+
+</div>
   }
 });
 </script>
