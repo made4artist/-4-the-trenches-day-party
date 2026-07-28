@@ -125,12 +125,20 @@ padding:20px;
     .logo{
         max-width:400px;
     }
-.flyer-video {
-  width: 100%;
-  max-width: 550px;
-  display: block;
-  margin: 0 auto 20px;
-  border-radius: 18px;
-  object-fit: cover;
-  box-shadow: 0 0 35px rgba(10,186,181,.6);
+.flyer-video{
+    width:100%;
+    max-width:550px;
+    display:block;
+    margin:0 auto 20px;
+    border-radius:18px;
+    object-fit:cover;
+}
+
+.flyer-video::-webkit-media-controls{
+    display:none !important;
+}
+
+.flyer-video::-webkit-media-controls-start-playback-button{
+    display:none !important;
+    -webkit-appearance:none;
 }
