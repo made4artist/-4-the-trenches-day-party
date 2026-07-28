@@ -44,8 +44,9 @@ margin-bottom:5px;
 }
 
 h2{
-font-size:2rem;
-margin:10px 0;
+    font-size:2rem;
+    margin:10px 0;
+    color:#FF6A00;
 }
 
 .host{
