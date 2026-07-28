@@ -74,3 +74,12 @@ $42.00
 </audio>
 </body>
 </html>
+<script>
+const video = document.querySelector(".flyer-video");
+
+if (video) {
+  video.muted = true;
+  video.play().catch(console.error);
+}
+</script>
+</body>
